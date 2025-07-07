@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenice - Custom CRM + ERP + GPS Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">G</div>
+                    <div class="company-info">
+                        <h1>Greenice</h1>
+                        <a href="https://www.greenice.net" target="_blank" rel="noopener noreferrer" class="website-link">
+                            greenice.net
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-counter">
+                    <span id="slideCounter">Slide 1 of 8</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="slide-container">
+                <!-- Slide Content -->
+                <div id="slideContent" class="slide-content">
+                    <!-- Slides will be dynamically inserted here -->
+                </div>
+
+                <!-- Navigation Controls -->
+                <div class="navigation-controls">
+                    <button id="prevBtn" class="nav-btn" onclick="prevSlide()">
+                        <i class="fas fa-chevron-left"></i>
+                        <span>Previous</span>
+                    </button>
+
+                    <!-- Slide Indicators -->
+                    <div class="slide-indicators" id="slideIndicators">
+                        <!-- Indicators will be dynamically generated -->
+                    </div>
+
+                    <button id="nextBtn" class="nav-btn" onclick="nextSlide()">
+                        <span>Next</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
